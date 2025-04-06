@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker (keep Dockerfile + docker-compose.yml)
+# Don't ignore them — just ignore extras
+*.pid
+
+# Ignore exported Docker images
+*.tar
+*.tar.gz
+*.img
+*.docker
+
+# Docker local volumes & build artifacts
+**/data/
+**/volume/
+**/tmp/
+**/cache/
+
+# VS Code
+.vscode/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Swagger auto-generated files (if any)
+swagger-output.json
+
+# Postman environments (if sensitive)
+*.postman_environment.json
+
+# Monitoring volumes
+monitoring/prometheus_data/
+monitoring/grafana_data/
+
+# Misc
+.idea/
+*.iml
