@@ -1,7 +1,4 @@
-✅ README.md
-md
-Copy
-Edit
+
 # 🚀 PeerHire API – DevOps Internship Assignment
 
 This repository contains a containerized Express.js API application built for the PeerHire DevOps Internship assignment. It features CI/CD automation, AWS deployment, monitoring, secrets management, and API documentation.
