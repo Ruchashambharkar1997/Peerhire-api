@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "36860245-fcb6-473a-8b46-a326e3a7e5b6",
+		"name": "peerhire-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43795877",
+		"_collection_link": "https://ruu-4034684.postman.co/workspace/ruu's-Workspace~8884f1cc-00fe-49fd-8b20-419b2520af6d/collection/43795877-36860245-fcb6-473a-8b46-a326e3a7e5b6?action=share&source=collection_link&creator=43795877"
+	},
+	"item": [
+		{
+			"name": "get users",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.60.55.234/api/login",
+					"protocol": "http",
+					"host": [
+						"13",
+						"60",
+						"55",
+						"234"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -15,7 +15,7 @@ const options = {
         description: "Documentation for the PeerHire Express API",
       },
     },
-    apis: ["./routes/*.js"], // Swagger will scan JSDoc comments in these files
+    apis: ["./routes/*.js","./app.js"], // Swagger will scan JSDoc comments in these files
   };
   
   const specs = swaggerJsdoc(options);
